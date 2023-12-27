@@ -123,10 +123,3 @@ Class.sootherDrone = {
     PARENT: ["trap"],
     HEALER: true,
 };
-
-
-                    Class.landmine.UPGRADES_TIER_3 = ["limpet", "megaLandmine", "claymore", "autoLandmine", "decoy", "tripwire", "vessel"];
-                    Class.banger.UPGRADES_TIER_3 = ["slammer", "megaBanger", "prick", "autoBanger", "tripwire", "thwacker", "sharper"];
-                    Class.medic.UPGRADES_TIER_3 = ["medic", "ointment", "injection", "actuary"];
-                                                      
-};
