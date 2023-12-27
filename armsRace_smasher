@@ -559,3 +559,12 @@ Class.autoDrifter.SKILL_CAP = [smshskl, smshskl, smshskl, smshskl, smshskl, smsh
     SKILL_CAP: [smshskl, 0, 0, 0, 0, smshskl, smshskl, smshskl, smshskl, smshskl],
     STAT_NAMES: statnames.smasher,
 };
+
+//upgrades
+ Class.smasher.UPGRADES_TIER_3.push("bonker", "banger", "drifter");
+Class.megaSmasher.UPGRADES_TIER_3 = ["ultraSmasher", "megaSpike", "megaLandmine", "autoMegaSmasher", "megaBonker", "megaDrifter"]
+                    Class.bonker.UPGRADES_TIER_3 = ["decoy", "spear", "autoBonker","megaBonker", "basher", "thwacker", "bundler"];
+                    Class.drifter.UPGRADES_TIER_3 = ["buncher", "megaDrifter", "autoDrifter", "vessel", "cauldron", "sharper", "bundler"];
+                    Class.spike.UPGRADES_TIER_3 = ["thorn", "megaSpike", "claymore", "autoSpike", "spear", "cauldron"];
+                    Class.autoSmasher.UPGRADES_TIER_3 = ["megaAutoSmasher", "tripleAutoSmasher", "doubleAutoSmasher", "tripletAutoSmasher", "hexaAutoSmasher", "autoMegaSmasher", "autoSpike", "autoLandmine",
+                                                       "autoBonker", "autoBanger", "autoDrifter"];
